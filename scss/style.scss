@@ -1,6 +1,21 @@
 // VARIABLES
-$mybodybackground: rgb(105, 177, 105);
+$body-fontfamily: 'Fira Sans', sans-serif;
+$heading-fontfamily: 'miller-text', serif;
 
-body {
-    background-color: $mybodybackground;
-}
+// COLORS
+$color-text-body: rgba(0, 0, 0, 0.466);
+$color-accent: rgb(235, 78, 104);
+$color-midgrey: rgba(0,0,0,.5);
+$color-links: rgb(0, 69, 138);
+$color-links-dark: #035;
+
+
+// IMPORT PARTIALS
+@import 'partials/toc';
+@import 'partials/typography'; 
+@import 'partials/buttons'; 
+
+
+
+
+

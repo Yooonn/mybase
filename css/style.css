@@ -1,1 +1,73 @@
-body{background-color:#69b169}
+/* ------------------------------------ 
+
+CSS TABLE OF CONTENTS 
+
+# GLOBAL CSS 
+    # BODY
+    # TYPOGRAPHY
+    # LINKS
+
+------------------------------------  */
+/* HEADING */
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  max-width: 30em; }
+
+h1, h2, h3 {
+  font-family: "miller-text", serif;
+  margin: .5em 0; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2; }
+
+p {
+  max-width: 35em; }
+
+a {
+  color: #00458a; }
+
+a:hover {
+  color: #035; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  margin-bottom: 0; }
+
+/* TYPE SPECIMEN */
+.mainhead {
+  font-size: 4em;
+  font-family: "miller-text", serif;
+  color: #eb4e68; }
+
+.subhead {
+  font-family: "Fira Sans", sans-serif;
+  color: #eb4e68; }
+
+button {
+  font-size: inherit; }
+
+button,
+.button {
+  background-color: #00458a;
+  color: #fff;
+  padding: 1em;
+  display: inline-block;
+  margin: .5em;
+  border-radius: 2em; }
+  button:hover,
+  .button:hover {
+    background-color: #035;
+    color: #fff; }
