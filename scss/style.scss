@@ -1,9 +1,10 @@
 // VARIABLES
-$mybodybackground: red;
+$body-fontfamily: 'Fira Sans', sans-serif;
+$heading-fontfamily: 'Libre Baskerville', serif;
+
+$color-accent: red;
 
 // IMPORT PARTIALS
 @import 'partials/toc';
+@import "partials/typography";
 
-body {
-    background-color: $mybodybackground;
-}

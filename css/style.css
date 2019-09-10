@@ -8,5 +8,35 @@ CSS TABLE OF CONTENTS
     # LINKS
 
 ------------------------------------  */
+/* HEADING */
 body {
-  background-color: red; }
+  font-family: "Fira Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  max-width: 30em; }
+
+h1, h2, h3 {
+  font-family: "Libre Baskerville", serif;
+  margin: .5em 0; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2; }
+
+/* TYPE SPECIMEN */
+.mainhead {
+  font-size: 4em;
+  font-family: "Libre Baskerville", serif;
+  color: red; }
+
+.subhead {
+  font-family: "Fira Sans", sans-serif;
+  color: red; }
