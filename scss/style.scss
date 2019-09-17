@@ -10,12 +10,18 @@ $color-links: rgb(0, 69, 138);
 $color-links-dark: #035;
 
 
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
 // IMPORT PARTIALS
 @import 'partials/toc';
 @import 'partials/typography'; 
 @import 'partials/buttons'; 
-
-
-
+@import 'partials/media';  
+@import 'partials/layout';  
+ 
 
 
