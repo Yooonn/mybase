@@ -12,6 +12,7 @@ button,
     display: inline-block;
     margin: .5em;
     border-radius: 2em;
+    margin-bottom: 2em;
 
     &:hover {
         background-color: $color-links-dark;

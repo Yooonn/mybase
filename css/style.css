@@ -35,10 +35,10 @@ p {
   max-width: 35em; }
 
 a {
-  color: #00458a; }
+  color: #00dfcc; }
 
 a:hover {
-  color: #035; }
+  color: #11f577; }
 
 hr {
   border: 0;
@@ -50,26 +50,27 @@ hr {
 .mainhead {
   font-size: 4em;
   font-family: "miller-text", serif;
-  color: #eb4e68; }
+  color: #4eeb95; }
 
 .subhead {
   font-family: "Fira Sans", sans-serif;
-  color: #eb4e68; }
+  color: #4eeb95; }
 
 button {
   font-size: inherit; }
 
 button,
 .button {
-  background-color: #00458a;
+  background-color: #00dfcc;
   color: #fff;
   padding: 1em;
   display: inline-block;
   margin: .5em;
-  border-radius: 2em; }
+  border-radius: 2em;
+  margin-bottom: 2em; }
   button:hover,
   .button:hover {
-    background-color: #035;
+    background-color: #11f577;
     color: #fff; }
 
 img {
@@ -101,3 +102,27 @@ body {
     font-size: 112.5%; }
   .container {
     max-width: 1050px; } }
+
+.row .column {
+  margin-bottom: 2%;
+  padding: 1em; }
+
+@media (min-width: 768px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .row .column {
+      color: #f3ff50;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      margin: 1%; } }
+
+.row.demo .column {
+  background: #505050;
+  padding: 1em;
+  text-align: center; }
