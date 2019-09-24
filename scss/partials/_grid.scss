@@ -13,12 +13,19 @@
     .row {
         display: flex;
         justify-content: center;
+        margin-left: -1%; // removes tiny left margin
+        margin-right: -1%; // removes tiny right margin
 
 
         .column {
-            color: rgb(243, 255, 80);
-            flex-grow: 1; // expand to full width
+            color: rgb(80, 255, 197);
+            flex-grow: 1; // expands to full width
             margin: 1%;
+
+            &.one-half { width: 50%; }
+            &.one-third { width: 33.3333%; }
+            &.two-thirds { width: 66.6666%; }
+            &.one-fourth { width: 25%; }
         }
     }
             

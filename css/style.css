@@ -72,6 +72,15 @@ button,
   .button:hover {
     background-color: #11f577;
     color: #fff; }
+  button.alt,
+  .button.alt {
+    color: #11f577;
+    background-color: white; }
+    button.alt:hover,
+    .button.alt:hover {
+      background-color: #11f577;
+      color: #fff;
+      border-color: #11f577; }
 
 img {
   max-width: 100%;
@@ -114,13 +123,23 @@ body {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: -1%;
+    margin-right: -1%; }
     .row .column {
-      color: #f3ff50;
+      color: #50ffc5;
       -webkit-box-flex: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
-      margin: 1%; } }
+      margin: 1%; }
+      .row .column.one-half {
+        width: 50%; }
+      .row .column.one-third {
+        width: 33.3333%; }
+      .row .column.two-thirds {
+        width: 66.6666%; }
+      .row .column.one-fourth {
+        width: 25%; } }
 
 .row.demo .column {
   background: #505050;
