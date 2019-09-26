@@ -4,10 +4,12 @@ $heading-fontfamily: 'miller-text', serif;
 
 // COLORS
 $color-text-body: rgba(0, 0, 0, 0.466);
-$color-accent: rgb(78, 235, 149);
 $color-midgrey: rgba(0,0,0,.5);
 $color-links: rgb(0, 223, 204);
 $color-links-dark: rgb(17, 245, 119);
+
+$color-accent: rgb(77, 240, 150);
+$color-hero-bg: rgba(77, 240, 150,.1);
 
 
 // BREAKPOINTS
@@ -23,5 +25,5 @@ $breakpoint-large: 1250px;
 @import 'partials/media';  
 @import 'partials/layout';  
 @import 'partials/grid';  
-
+@import 'partials/structure';  
 

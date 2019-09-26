@@ -20,7 +20,7 @@ $gutter-width: 2%;
 
 
         .column {
-            color: rgb(80, 255, 197);
+            color: rgb(68, 221, 168);
             flex-grow: 1; // expands to full width
             margin: $gutter-width/2;
 
@@ -38,7 +38,7 @@ $gutter-width: 2%;
 .row.demo {
     // background: yellow;
     .column {
-        background: rgb(80, 80, 80);
+        background: rgb(241, 241, 241);
         padding: 1em;
         text-align: center;
     }
