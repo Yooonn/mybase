@@ -44,7 +44,22 @@ hr {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.15);
-  margin-bottom: 0; }
+  margin: 4em 0; }
+
+.sectionhead {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 2em; }
+
+.meta {
+  display: block;
+  font-size: .8em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 2em 0; }
 
 /* TYPE SPECIMEN */
 .mainhead {
@@ -54,7 +69,8 @@ hr {
 
 .subhead {
   font-family: "Fira Sans", sans-serif;
-  color: #4df096; }
+  color: #4df096;
+  margin-bottom: 3em; }
 
 button {
   font-size: inherit; }
@@ -181,6 +197,9 @@ body {
 .site-nav a {
   display: block;
   padding: 1em; }
+
+section {
+  padding: 6em 0; }
 
 .hero {
   background-color: rgba(77, 240, 150, 0.1);

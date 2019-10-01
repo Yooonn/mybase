@@ -40,9 +40,27 @@ hr {
     border: 0;
     height: 1px;
     background: rgba(0,0,0,.15);
-    margin-bottom: 0;
+    margin: 4em 0;
 }
 
+// HELPER
+.sectionhead {
+    text-align: center;
+    font-family: $body-fontfamily;
+    font-size: 1em;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 2em;
+}
+
+.meta {
+    display: block;
+    font-size: .8em;
+    color: $color-midgrey;
+    margin: 0 0 2em 0;
+
+}
 
 /* TYPE SPECIMEN */
 .mainhead {
@@ -53,7 +71,8 @@ hr {
 
 .subhead {
     font-family: $body-fontfamily;
-    color: $color-accent
+    color: $color-accent;
+    margin-bottom: 3em;
 }
 
 
