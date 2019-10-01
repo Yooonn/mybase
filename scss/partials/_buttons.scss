@@ -20,8 +20,9 @@ button,
     }
 
     &.alt {
-        color: $color-links-dark;
+        color: $color-links;
         background-color: rgb(255, 255, 255); 
+        border: 1px solid $color-links;
 
         &:hover {
             background-color: $color-links-dark;

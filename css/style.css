@@ -90,8 +90,9 @@ button,
     color: #fff; }
   button.alt,
   .button.alt {
-    color: #11f577;
-    background-color: white; }
+    color: #00dfcc;
+    background-color: white;
+    border: 1px solid #00dfcc; }
     button.alt:hover,
     .button.alt:hover {
       background-color: #11f577;
@@ -199,7 +200,7 @@ body {
   padding: 1em; }
 
 section {
-  padding: 6em 0; }
+  padding: 4em 0; }
 
 .hero {
   background-color: rgba(77, 240, 150, 0.1);
